@@ -1,0 +1,140 @@
+#nav {
+    margin: 0px;
+    padding: 20px;
+    width: 100%;
+    text-align:right;
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+}
+
+#alignLeft {
+    float: left;
+    width: 30%;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    white-space: nowrap
+}
+
+#alignRight {
+    float: right;
+    width: 30%;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    white-space: nowrap;
+
+}
+
+#alignLeft a {
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+#alignRight a {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#searchWrap {
+    position: relative;
+    border: 2px solid #f1f1f1;
+    border-radius: 50px;
+    height: 60px;
+    width: 500px;
+    margin: auto auto;
+
+}
+
+#searchBar input {
+    position: absolute;
+    width: 400px;
+    height: 50px;
+    margin-top: -15px;
+    margin-left: 50px;
+    outline: none;
+    border-color: transparent;
+}
+
+
+#searchBar {
+    margin: auto auto;
+    position: absolute;
+    padding-top: 20px;
+ 
+}
+
+#searchWrap:hover {
+    box-shadow: 1px 1px 10px lightgrey;
+}
+
+.searchElements {
+    margin-top: 100px;
+    text-align: center;
+    display: block;
+    margin-right: auto;
+}
+
+#searchButtons {
+    text-align: center;
+    width: 50%;
+    margin: auto auto;
+}
+
+.searchElements img {
+    margin: 20px;
+}
+
+#mic{
+    height: 25px;
+    float: right;
+
+}
+
+#search {
+    height: 20px;
+    margin: 20px;
+    float: left;
+}
+
+.btn-light {
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+    background: #f1f1f1 !important;
+}
+
+.btn-light:hover {
+    font-family: 'Roboto', sans-serif;
+    color: grey;
+}
+
+#icon {
+margin: 20px;
+}
+
+#footer{
+    background-color: #f1f1f1;
+    height: 5vh;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    border-top: 1px solid lightgrey;
+    font-size: 14px;
+    padding: 10px;
+    color: grey;
+  
+}
