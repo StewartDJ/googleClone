@@ -138,3 +138,23 @@ margin: 20px;
     color: grey;
   
 }
+
+.redText {
+    color: #D93025;
+    margin-left: 20px;
+
+}
+
+#logoLeft {
+    float: left;
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#navGrey {
+    background-color: #f1f1f1;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
