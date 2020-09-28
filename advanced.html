@@ -20,34 +20,75 @@
         </div>
     </div>
        
-    <p class="redText"> Advanced Search <p>
+    <p class="redText margins boldText"> Advanced Search <p>
     <hr>
-    <p> Find pages with.... </p> 
-   <p>all these words:  <input type="text"></p> 
-   <p> this exact word or phrase:  <input type="text"></p>
-   <p> any of these words:  <input type="text"></p>
-   <p> none of these words:  <input type="text"></p>
-    numbers ranging from <input type="text"> to <input type="text">
-  <hr>
-
-
-
-<button class="btn btn-primary">Advanced Search </button>
-<hr>
-
-<p> You can also... </p>
-
-<a href="#"> Find pages that are similar to a URL</a>
-<a href="#"> Search pages you've visited </a>
-<a href="#"> Use operators in the search box</a>
-<a href="#"> Customize your search settings <a>
-
-
-
-
+    <div class="margins">
+    <div class="formInput">
+    <p class="boldText"> Find pages with.... </p> 
+   <div class="leftSide"><p>all these words: </div> <input type="text"></p> 
+   <div class="leftSide"><p> this exact word or phrase:</div>  <input type="text"></p>
+   <div class="leftSide"><p> any of these words: </div> <input type="text"></p>
+   <div class="leftSide"><p> none of these words: </div> <input type="text"></p>
+   
+</div>
             
+   <div class="leftSide"> numbers ranging from </div><input type="text" class="smallInput">  &nbsp to &nbsp <input type="text" class="smallInput">
+    </div>
+    <hr>
+    <div class="margins">
+        <div class="formInput">
+<p class="boldText">Then narrow your results by...</p>
+
+<div class="leftSide"><p>language:</div> <select class="select-css"> 
+    <option>any language</option>
+    <option>Afrikaans</option>
+    <option>Arabic</option>
+    <option>Armenian</option>
+    <option>Belarusian</option>
+</select></p> 
+
+<div class="leftSide"><p>region: </div> <select class="select-css"> 
+    <option>{jQuery.getJSON('http://api.worldbank.org/v2/country')}</option> </select> 
+</p>
+<p>
+    <div class="leftSide">last update:</div> <select class="select-css">
+    <option>anytime</option>
+    <option>past 24 hours</option>
+    <option>past week</option>
+    <option>past month</option>
+    <option>past year</option>
+        
+    </select> </p>
+
+    <div class="leftSide"><p>site or domain:</div> <input>  </p>
+
+
+
+    <div class="leftSide"><p> <a href="#"> SafeSearch:</a></div><select class="select-css"></select> </select> </p>
+
+    <div class="leftSide"><p>file type: </div><select class="select-css"> </select></p>
+
+    <div class="leftSide"><p><a href ="#"> usage rights:</a></div><select class="select-css"> <option>anytime</option>
+    <option>all</option>
+    <option>Creative Commons licenses</option>
+    <option>Commercial & other licenses</option>
+     </select> </p>
+    </div>
+<p><button class="btn btn-primary btnRight">Advanced Search </button> 
+</p><hr>
+
+<p class="boldText"> You can also... </p>
+
+<div class="block">
+<a href="#"> Find pages that are similar to a URL</a> <br>
+<a href="#"> Search pages you've visited </a> <br>
+<a href="#"> Use operators in the search box</a> <br>
+<a href="#"> Customize your search settings </a>
+</div>
+</div>
+
     
-            <div id="footer">
+            <div id="footer2">
             <div id="bottomText">
              <div id="alignLeft">
                 <a href="#">Advertising </a>
